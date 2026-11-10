@@ -1,0 +1,423 @@
+﻿Job_Role,Skill,Frequency
+AI / Machine Learning,Python,7
+AI / Machine Learning,AWS,5
+AI / Machine Learning,Machine Learning,5
+AI / Machine Learning,Software Engineering,5
+AI / Machine Learning,TypeScript,5
+AI / Machine Learning,PyTorch,4
+AI / Machine Learning,GraphQL,3
+AI / Machine Learning,Java,3
+AI / Machine Learning,JavaScript,3
+AI / Machine Learning,React,3
+AI / Machine Learning,TensorFlow,3
+AI / Machine Learning,Artificial Intelligence,2
+AI / Machine Learning,CSS,2
+AI / Machine Learning,Node.js,2
+AI / Machine Learning,Agile,1
+AI / Machine Learning,Angular,1
+AI / Machine Learning,Azure,1
+AI / Machine Learning,C++,1
+AI / Machine Learning,CI/CD,1
+AI / Machine Learning,Docker,1
+AI / Machine Learning,Excel,1
+AI / Machine Learning,GitHub,1
+AI / Machine Learning,HTML,1
+AI / Machine Learning,SQL,1
+Backend Development,AWS,43
+Backend Development,Java,38
+Backend Development,Python,37
+Backend Development,Agile,31
+Backend Development,Kubernetes,30
+Backend Development,Node.js,30
+Backend Development,CI/CD,28
+Backend Development,JavaScript,28
+Backend Development,PostgreSQL,28
+Backend Development,Software Engineering,28
+Backend Development,MySQL,26
+Backend Development,SQL,24
+Backend Development,Git,23
+Backend Development,Go,21
+Backend Development,MongoDB,18
+Backend Development,Docker,17
+Backend Development,Azure,16
+Backend Development,TypeScript,16
+Backend Development,React,13
+Backend Development,Spring Boot,13
+Backend Development,Google Cloud,12
+Backend Development,PHP,12
+Backend Development,Django,10
+Backend Development,GitHub,10
+Backend Development,Redis,10
+Backend Development,Scrum,10
+Backend Development,C#,9
+Backend Development,C++,9
+Backend Development,GraphQL,9
+Backend Development,Rust,9
+Backend Development,Angular,8
+Backend Development,Linux,8
+Backend Development,CSS,7
+Backend Development,HTML,6
+Backend Development,Machine Learning,6
+Backend Development,REST API,6
+Backend Development,.NET,5
+Backend Development,Cybersecurity,5
+Backend Development,Firebase,5
+Backend Development,Terraform,5
+Backend Development,Ruby,4
+Backend Development,Artificial Intelligence,3
+Backend Development,Jenkins,3
+Backend Development,Excel,2
+Backend Development,Flask,2
+Backend Development,Networking,2
+Backend Development,Oracle,2
+Backend Development,Vue.js,2
+Backend Development,Data Analysis,1
+Backend Development,NumPy,1
+Backend Development,PyTorch,1
+Cybersecurity,AWS,4
+Cybersecurity,Python,4
+Cybersecurity,Cybersecurity,3
+Cybersecurity,Azure,2
+Cybersecurity,CI/CD,2
+Cybersecurity,Go,2
+Cybersecurity,Kubernetes,2
+Cybersecurity,TypeScript,2
+Cybersecurity,.NET,1
+Cybersecurity,Agile,1
+Cybersecurity,Docker,1
+Cybersecurity,Git,1
+Cybersecurity,JavaScript,1
+Cybersecurity,Linux,1
+Cybersecurity,Node.js,1
+Cybersecurity,PHP,1
+Cybersecurity,React,1
+Cybersecurity,Rust,1
+Cybersecurity,Software Engineering,1
+Cybersecurity,Terraform,1
+Data Engineering / Science,SQL,6
+Data Engineering / Science,Software Engineering,4
+Data Engineering / Science,Machine Learning,3
+Data Engineering / Science,Python,3
+Data Engineering / Science,AWS,2
+Data Engineering / Science,Azure,2
+Data Engineering / Science,Go,2
+Data Engineering / Science,MySQL,2
+Data Engineering / Science,CI/CD,1
+Data Engineering / Science,Cybersecurity,1
+Data Engineering / Science,Java,1
+Data Engineering / Science,PostgreSQL,1
+Data Engineering / Science,Tableau,1
+DevOps / Cloud / Networks,Kubernetes,15
+DevOps / Cloud / Networks,AWS,12
+DevOps / Cloud / Networks,Networking,12
+DevOps / Cloud / Networks,Terraform,12
+DevOps / Cloud / Networks,Python,10
+DevOps / Cloud / Networks,CI/CD,9
+DevOps / Cloud / Networks,Go,7
+DevOps / Cloud / Networks,Linux,6
+DevOps / Cloud / Networks,Software Engineering,6
+DevOps / Cloud / Networks,Azure,5
+DevOps / Cloud / Networks,Docker,4
+DevOps / Cloud / Networks,GitHub,4
+DevOps / Cloud / Networks,C++,3
+DevOps / Cloud / Networks,Git,3
+DevOps / Cloud / Networks,Java,3
+DevOps / Cloud / Networks,Jenkins,3
+DevOps / Cloud / Networks,Machine Learning,3
+DevOps / Cloud / Networks,React,3
+DevOps / Cloud / Networks,TypeScript,3
+DevOps / Cloud / Networks,Agile,2
+DevOps / Cloud / Networks,Oracle,2
+DevOps / Cloud / Networks,PostgreSQL,2
+DevOps / Cloud / Networks,Rust,2
+DevOps / Cloud / Networks,SQL,2
+DevOps / Cloud / Networks,.NET,1
+DevOps / Cloud / Networks,Angular,1
+DevOps / Cloud / Networks,Artificial Intelligence,1
+DevOps / Cloud / Networks,C#,1
+DevOps / Cloud / Networks,Cybersecurity,1
+DevOps / Cloud / Networks,Data Analysis,1
+DevOps / Cloud / Networks,Firebase,1
+DevOps / Cloud / Networks,JavaScript,1
+DevOps / Cloud / Networks,Node.js,1
+DevOps / Cloud / Networks,PHP,1
+DevOps / Cloud / Networks,Ruby,1
+DevOps / Cloud / Networks,Scrum,1
+Frontend / Web Development,React,382
+Frontend / Web Development,JavaScript,344
+Frontend / Web Development,TypeScript,304
+Frontend / Web Development,CSS,303
+Frontend / Web Development,HTML,227
+Frontend / Web Development,Git,192
+Frontend / Web Development,CI/CD,146
+Frontend / Web Development,Agile,138
+Frontend / Web Development,Angular,115
+Frontend / Web Development,AWS,81
+Frontend / Web Development,Node.js,80
+Frontend / Web Development,GraphQL,79
+Frontend / Web Development,Azure,67
+Frontend / Web Development,GitHub,66
+Frontend / Web Development,SQL,66
+Frontend / Web Development,Docker,63
+Frontend / Web Development,Python,55
+Frontend / Web Development,PHP,51
+Frontend / Web Development,Software Engineering,51
+Frontend / Web Development,Go,48
+Frontend / Web Development,Vue.js,46
+Frontend / Web Development,Scrum,44
+Frontend / Web Development,Kubernetes,43
+Frontend / Web Development,Java,38
+Frontend / Web Development,REST API,28
+Frontend / Web Development,.NET,26
+Frontend / Web Development,MySQL,23
+Frontend / Web Development,PostgreSQL,21
+Frontend / Web Development,C#,19
+Frontend / Web Development,Ruby,17
+Frontend / Web Development,Artificial Intelligence,16
+Frontend / Web Development,Cybersecurity,16
+Frontend / Web Development,Machine Learning,15
+Frontend / Web Development,Linux,14
+Frontend / Web Development,Google Cloud,13
+Frontend / Web Development,MongoDB,12
+Frontend / Web Development,Redis,12
+Frontend / Web Development,Jenkins,11
+Frontend / Web Development,Excel,10
+Frontend / Web Development,Networking,9
+Frontend / Web Development,Terraform,9
+Frontend / Web Development,Firebase,8
+Frontend / Web Development,Rust,8
+Frontend / Web Development,Django,7
+Frontend / Web Development,Spring Boot,7
+Frontend / Web Development,Oracle,6
+Frontend / Web Development,Power BI,6
+Frontend / Web Development,C++,5
+Frontend / Web Development,Data Analysis,5
+Frontend / Web Development,Flask,5
+Frontend / Web Development,PyTorch,4
+Frontend / Web Development,Tableau,3
+Frontend / Web Development,NumPy,2
+Frontend / Web Development,Pandas,2
+Frontend / Web Development,Windows Server,1
+Full-Stack Development,React,129
+Full-Stack Development,JavaScript,112
+Full-Stack Development,AWS,76
+Full-Stack Development,TypeScript,76
+Full-Stack Development,Python,75
+Full-Stack Development,Node.js,74
+Full-Stack Development,Agile,67
+Full-Stack Development,CSS,64
+Full-Stack Development,Angular,61
+Full-Stack Development,Git,55
+Full-Stack Development,HTML,52
+Full-Stack Development,SQL,47
+Full-Stack Development,CI/CD,45
+Full-Stack Development,MySQL,45
+Full-Stack Development,Java,44
+Full-Stack Development,PHP,43
+Full-Stack Development,PostgreSQL,40
+Full-Stack Development,Azure,39
+Full-Stack Development,Docker,39
+Full-Stack Development,Software Engineering,34
+Full-Stack Development,C#,30
+Full-Stack Development,MongoDB,30
+Full-Stack Development,.NET,27
+Full-Stack Development,GitHub,27
+Full-Stack Development,Scrum,21
+Full-Stack Development,Vue.js,20
+Full-Stack Development,Go,18
+Full-Stack Development,GraphQL,18
+Full-Stack Development,Kubernetes,18
+Full-Stack Development,Redis,18
+Full-Stack Development,Django,17
+Full-Stack Development,Google Cloud,13
+Full-Stack Development,Machine Learning,13
+Full-Stack Development,Ruby,12
+Full-Stack Development,C++,11
+Full-Stack Development,Spring Boot,11
+Full-Stack Development,REST API,9
+Full-Stack Development,Cybersecurity,8
+Full-Stack Development,Linux,8
+Full-Stack Development,Data Analysis,7
+Full-Stack Development,Firebase,7
+Full-Stack Development,Rust,7
+Full-Stack Development,Artificial Intelligence,6
+Full-Stack Development,Flask,6
+Full-Stack Development,Networking,6
+Full-Stack Development,Terraform,5
+Full-Stack Development,Jenkins,4
+Full-Stack Development,Oracle,3
+Full-Stack Development,Excel,2
+Full-Stack Development,Deep Learning,1
+Full-Stack Development,Tableau,1
+IT Systems / Support,Python,5
+IT Systems / Support,Azure,3
+IT Systems / Support,Cybersecurity,3
+IT Systems / Support,Networking,3
+IT Systems / Support,React,3
+IT Systems / Support,Software Engineering,3
+IT Systems / Support,AWS,2
+IT Systems / Support,Agile,2
+IT Systems / Support,C#,2
+IT Systems / Support,C++,2
+IT Systems / Support,CI/CD,2
+IT Systems / Support,Git,2
+IT Systems / Support,Kubernetes,2
+IT Systems / Support,SQL,2
+IT Systems / Support,TypeScript,2
+IT Systems / Support,.NET,1
+IT Systems / Support,Artificial Intelligence,1
+IT Systems / Support,CSS,1
+IT Systems / Support,Data Analysis,1
+IT Systems / Support,Deep Learning,1
+IT Systems / Support,Docker,1
+IT Systems / Support,Go,1
+IT Systems / Support,Linux,1
+IT Systems / Support,MongoDB,1
+IT Systems / Support,MySQL,1
+IT Systems / Support,Node.js,1
+IT Systems / Support,PHP,1
+IT Systems / Support,PostgreSQL,1
+IT Systems / Support,Redis,1
+Mobile Development,React,8
+Mobile Development,TypeScript,6
+Mobile Development,Agile,3
+Mobile Development,JavaScript,3
+Mobile Development,CI/CD,2
+Mobile Development,CSS,2
+Mobile Development,Git,2
+Mobile Development,GraphQL,2
+Mobile Development,Cybersecurity,1
+Mobile Development,Docker,1
+Mobile Development,Firebase,1
+Mobile Development,Go,1
+Mobile Development,HTML,1
+Mobile Development,Java,1
+Mobile Development,Kubernetes,1
+Mobile Development,Linux,1
+Mobile Development,REST API,1
+Mobile Development,Software Engineering,1
+QA / Testing,Python,14
+QA / Testing,CI/CD,10
+QA / Testing,Software Engineering,8
+QA / Testing,Agile,7
+QA / Testing,Linux,6
+QA / Testing,SQL,6
+QA / Testing,AWS,5
+QA / Testing,Java,5
+QA / Testing,Networking,4
+QA / Testing,TypeScript,4
+QA / Testing,Azure,3
+QA / Testing,JavaScript,3
+QA / Testing,Kubernetes,3
+QA / Testing,Scrum,3
+QA / Testing,C#,2
+QA / Testing,C++,2
+QA / Testing,Docker,2
+QA / Testing,Git,2
+QA / Testing,GitHub,2
+QA / Testing,Go,2
+QA / Testing,Jenkins,2
+QA / Testing,Node.js,2
+QA / Testing,React,2
+QA / Testing,.NET,1
+QA / Testing,CSS,1
+QA / Testing,Cybersecurity,1
+QA / Testing,Google Cloud,1
+QA / Testing,HTML,1
+QA / Testing,MongoDB,1
+QA / Testing,MySQL,1
+QA / Testing,Oracle,1
+QA / Testing,Pandas,1
+QA / Testing,PostgreSQL,1
+QA / Testing,REST API,1
+Software Architecture / Leadership,Agile,8
+Software Architecture / Leadership,Software Engineering,8
+Software Architecture / Leadership,CI/CD,7
+Software Architecture / Leadership,C#,4
+Software Architecture / Leadership,JavaScript,4
+Software Architecture / Leadership,React,4
+Software Architecture / Leadership,SQL,4
+Software Architecture / Leadership,.NET,3
+Software Architecture / Leadership,Azure,3
+Software Architecture / Leadership,Go,3
+Software Architecture / Leadership,Linux,3
+Software Architecture / Leadership,Networking,3
+Software Architecture / Leadership,Python,3
+Software Architecture / Leadership,Scrum,3
+Software Architecture / Leadership,AWS,2
+Software Architecture / Leadership,Angular,2
+Software Architecture / Leadership,CSS,2
+Software Architecture / Leadership,HTML,2
+Software Architecture / Leadership,Oracle,2
+Software Architecture / Leadership,PostgreSQL,2
+Software Architecture / Leadership,Ruby,2
+Software Architecture / Leadership,Docker,1
+Software Architecture / Leadership,Git,1
+Software Architecture / Leadership,GitHub,1
+Software Architecture / Leadership,Java,1
+Software Architecture / Leadership,Node.js,1
+Software Architecture / Leadership,NumPy,1
+Software Architecture / Leadership,Pandas,1
+Software Architecture / Leadership,Power BI,1
+Software Architecture / Leadership,PyTorch,1
+Software Architecture / Leadership,REST API,1
+Software Architecture / Leadership,TensorFlow,1
+Software Architecture / Leadership,Terraform,1
+Software Architecture / Leadership,TypeScript,1
+Software Engineering,Software Engineering,350
+Software Engineering,Python,260
+Software Engineering,JavaScript,215
+Software Engineering,Agile,208
+Software Engineering,React,181
+Software Engineering,CI/CD,177
+Software Engineering,AWS,163
+Software Engineering,Java,150
+Software Engineering,TypeScript,149
+Software Engineering,SQL,146
+Software Engineering,Git,137
+Software Engineering,Go,130
+Software Engineering,C++,128
+Software Engineering,C#,121
+Software Engineering,Linux,118
+Software Engineering,Azure,103
+Software Engineering,CSS,98
+Software Engineering,HTML,95
+Software Engineering,Kubernetes,95
+Software Engineering,.NET,88
+Software Engineering,GitHub,75
+Software Engineering,Docker,73
+Software Engineering,Networking,71
+Software Engineering,Node.js,67
+Software Engineering,Angular,66
+Software Engineering,Scrum,66
+Software Engineering,Artificial Intelligence,65
+Software Engineering,Machine Learning,53
+Software Engineering,PHP,52
+Software Engineering,MySQL,44
+Software Engineering,PostgreSQL,44
+Software Engineering,Terraform,39
+Software Engineering,Cybersecurity,35
+Software Engineering,Rust,34
+Software Engineering,Ruby,29
+Software Engineering,Oracle,26
+Software Engineering,Excel,22
+Software Engineering,Google Cloud,21
+Software Engineering,Spring Boot,19
+Software Engineering,Django,18
+Software Engineering,Vue.js,18
+Software Engineering,MongoDB,17
+Software Engineering,GraphQL,16
+Software Engineering,Jenkins,14
+Software Engineering,Redis,13
+Software Engineering,REST API,10
+Software Engineering,Deep Learning,8
+Software Engineering,Flask,8
+Software Engineering,Data Analysis,6
+Software Engineering,NumPy,5
+Software Engineering,PyTorch,5
+Software Engineering,Pandas,3
+Software Engineering,Power BI,3
+Software Engineering,Firebase,2
+Software Engineering,TensorFlow,2
+Software Engineering,Windows Server,2
+Software Engineering,Tableau,1

@@ -1,0 +1,224 @@
+﻿Experience_Level,Skill,Frequency
+5+ Years,React,266
+5+ Years,Software Engineering,256
+5+ Years,JavaScript,239
+5+ Years,TypeScript,222
+5+ Years,Python,201
+5+ Years,AWS,186
+5+ Years,CI/CD,184
+5+ Years,Agile,182
+5+ Years,CSS,141
+5+ Years,Git,139
+5+ Years,Java,115
+5+ Years,Node.js,112
+5+ Years,SQL,103
+5+ Years,Go,102
+5+ Years,HTML,102
+Not Specified,React,214
+Not Specified,JavaScript,205
+Not Specified,CSS,163
+Not Specified,HTML,149
+Not Specified,TypeScript,146
+Not Specified,Git,118
+Not Specified,Agile,118
+Not Specified,Python,111
+Not Specified,CI/CD,103
+Not Specified,SQL,88
+Not Specified,AWS,85
+Not Specified,Software Engineering,83
+Not Specified,Angular,81
+Not Specified,Azure,77
+Not Specified,Java,77
+Mid Level,JavaScript,8
+Mid Level,TypeScript,8
+Mid Level,React,8
+Mid Level,GraphQL,5
+Mid Level,Git,4
+Mid Level,Agile,4
+Mid Level,Node.js,3
+Mid Level,CSS,3
+Mid Level,CI/CD,2
+Mid Level,GitHub,2
+Mid Level,Docker,2
+Mid Level,Go,1
+Mid Level,SQL,1
+Mid Level,Oracle,1
+Mid Level,PHP,1
+Senior,React,66
+Senior,TypeScript,55
+Senior,JavaScript,52
+Senior,Agile,49
+Senior,Software Engineering,45
+Senior,Python,43
+Senior,CI/CD,40
+Senior,CSS,39
+Senior,AWS,29
+Senior,Git,29
+Senior,HTML,25
+Senior,Java,23
+Senior,SQL,23
+Senior,Go,23
+Senior,Docker,21
+3+ Years,JavaScript,73
+3+ Years,React,61
+3+ Years,TypeScript,59
+3+ Years,Git,49
+3+ Years,CSS,49
+3+ Years,SQL,42
+3+ Years,AWS,40
+3+ Years,CI/CD,39
+3+ Years,Agile,38
+3+ Years,Software Engineering,38
+3+ Years,HTML,37
+3+ Years,Angular,35
+3+ Years,Python,33
+3+ Years,Node.js,26
+3+ Years,C#,20
+4 Years,CI/CD,3
+4 Years,Agile,3
+4 Years,TypeScript,3
+4 Years,React,3
+4 Years,Python,2
+4 Years,Go,2
+4 Years,AWS,2
+4 Years,Kubernetes,2
+4 Years,Terraform,2
+4 Years,Git,2
+4 Years,GitHub,2
+4 Years,JavaScript,2
+4 Years,HTML,2
+4 Years,CSS,2
+4 Years,Linux,1
+2+ Years,JavaScript,40
+2+ Years,React,34
+2+ Years,Git,27
+2+ Years,TypeScript,23
+2+ Years,Software Engineering,19
+2+ Years,CSS,19
+2+ Years,Python,15
+2+ Years,Agile,15
+2+ Years,HTML,13
+2+ Years,Java,12
+2+ Years,SQL,12
+2+ Years,Go,10
+2+ Years,CI/CD,10
+2+ Years,AWS,9
+2+ Years,Node.js,9
+Internship,JavaScript,15
+Internship,CSS,12
+Internship,React,11
+Internship,HTML,11
+Internship,Software Engineering,10
+Internship,Python,9
+Internship,Java,8
+Internship,TypeScript,7
+Internship,GitHub,6
+Internship,C++,5
+Internship,CI/CD,5
+Internship,SQL,5
+Internship,Artificial Intelligence,5
+Internship,Machine Learning,5
+Internship,Cybersecurity,4
+Junior,JavaScript,29
+Junior,Python,27
+Junior,Software Engineering,25
+Junior,Agile,19
+Junior,Git,19
+Junior,React,19
+Junior,Java,18
+Junior,Linux,17
+Junior,CI/CD,16
+Junior,Node.js,16
+Junior,AWS,15
+Junior,CSS,15
+Junior,C++,14
+Junior,TypeScript,13
+Junior,HTML,13
+4+ Years,React,32
+4+ Years,JavaScript,31
+4+ Years,CSS,25
+4+ Years,Python,21
+4+ Years,TypeScript,21
+4+ Years,HTML,20
+4+ Years,AWS,19
+4+ Years,CI/CD,18
+4+ Years,Agile,17
+4+ Years,Git,14
+4+ Years,Software Engineering,13
+4+ Years,PHP,11
+4+ Years,Go,10
+4+ Years,Docker,10
+4+ Years,Kubernetes,9
+3 Years,Oracle,5
+3 Years,Python,5
+3 Years,Git,5
+3 Years,Agile,5
+3 Years,JavaScript,4
+3 Years,SQL,4
+3 Years,Scrum,4
+3 Years,C#,3
+3 Years,React,3
+3 Years,Power BI,3
+3 Years,Pandas,3
+3 Years,NumPy,3
+3 Years,AWS,3
+3 Years,Docker,3
+3 Years,Kubernetes,3
+1+ Years,CI/CD,3
+1+ Years,TypeScript,2
+1+ Years,React,2
+1+ Years,Node.js,2
+1+ Years,CSS,2
+1+ Years,AWS,2
+1+ Years,Azure,2
+1+ Years,Kubernetes,2
+1+ Years,Terraform,2
+1+ Years,Java,1
+1+ Years,SQL,1
+Entry Level,Agile,7
+Entry Level,JavaScript,6
+Entry Level,React,6
+Entry Level,Software Engineering,5
+Entry Level,Git,5
+Entry Level,Scrum,4
+Entry Level,Networking,4
+Entry Level,TypeScript,4
+Entry Level,SQL,3
+Entry Level,Python,3
+Entry Level,HTML,3
+Entry Level,PHP,3
+Entry Level,CSS,3
+Entry Level,Java,2
+Entry Level,C++,2
+1+ Year,JavaScript,6
+1+ Year,Agile,4
+1+ Year,C#,4
+1+ Year,HTML,4
+1+ Year,CSS,4
+1+ Year,Git,3
+1+ Year,TypeScript,3
+1+ Year,Python,2
+1+ Year,React,2
+1+ Year,Machine Learning,2
+1+ Year,AWS,2
+1+ Year,Software Engineering,2
+1+ Year,.NET,2
+1+ Year,Go,2
+1+ Year,Angular,2
+2 Years,JavaScript,4
+2 Years,Angular,3
+2 Years,Agile,3
+2 Years,Python,2
+2 Years,Java,2
+2 Years,React,2
+2 Years,HTML,2
+2 Years,Scrum,2
+2 Years,CSS,1
+2 Years,Software Engineering,1
+2 Years,C++,1
+2 Years,Go,1
+2 Years,Data Analysis,1
+2 Years,AWS,1
+2 Years,Azure,1
+0 Years,Go,1
+0 Years,Software Engineering,1
