@@ -1,4 +1,3 @@
-
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -11,30 +10,21 @@ print("       K-MEANS CLUSTERING AND CLUSTER INTERPRETATION")
 print("=" * 65)
 
 # =====================================================
-# 1. LOAD DATASET
+# 1. LOAD DATASET (cleaned file produced by 01_cleaning.py)
 # =====================================================
 
-file = "jobs_final_organized.xlsx"
+df = pd.read_csv("jobs_clean_final.csv")
+df = df[df["Has_Skills"]]
 
-df = pd.read_excel(file, sheet_name="Skills")
-
-df = df.dropna(
-    subset=["Job_Number", "Job_Title", "Required_Skill"]
-)
-
-print("\nOriginal skills records:", len(df))
+print("\nJobs with skills:", len(df))
 
 # =====================================================
 # 2. PREPARE ONE DOCUMENT PER JOB
 # =====================================================
 
-jobs = df.groupby("Job_Number").agg(
-    Job_Title=("Job_Title", "first"),
-    Skills=(
-        "Required_Skill",
-        lambda x: ", ".join(sorted(set(x.astype(str))))
-    )
-).reset_index()
+jobs = df[["Job_Number", "Job_Title", "Required_Skills"]].rename(
+    columns={"Required_Skills": "Skills"}
+).reset_index(drop=True)
 
 jobs["Text"] = jobs["Job_Title"] + " " + jobs["Skills"]
 

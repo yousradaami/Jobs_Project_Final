@@ -1,0 +1,131 @@
+================================================================
+A. SKILLS vs EXPERIENCE LEVEL (jobs with skills, Junior / Mid / Senior)
+================================================================
+Jobs compared: 1331  (Internship n=29 and 'Not Specified' n=509 are left out)
+
+Chi-square test per skill (is the share of jobs listing the skill the same across levels?)
+     Skill  %Junior  %Mid  %Senior  Senior_minus_Junior_pp  Cramers_V  p_value q_value_BH  Significant_5%
+JavaScript     47.8  43.7     33.0                   -14.8      0.123 4.11e-05     0.0006            True
+       Git     30.3  27.4     19.0                   -11.3      0.110 3.05e-04     0.0023            True
+      HTML     19.7  23.3     14.4                    -5.3      0.098 1.58e-03     0.0079            True
+       CSS     24.7  30.0     20.4                    -4.3      0.092 3.70e-03     0.0139            True
+      Java     19.7   9.6     15.6                    -4.0      0.084 8.92e-03     0.0268            True
+       SQL     16.3  20.7     14.3                    -2.0      0.070 3.84e-02     0.0959           False
+     Azure     14.6   8.5     13.4                    -1.2      0.063 7.36e-02     0.1577           False
+       AWS     16.9  24.1     24.1                     7.3      0.059 1.02e-01     0.1798           False
+   Angular     11.2  16.7     12.1                     0.9      0.057 1.15e-01     0.1798           False
+TypeScript     25.3  34.4     31.4                     6.1      0.056 1.20e-01     0.1798           False
+     CI/CD     18.5  24.1     25.4                     6.8      0.053 1.52e-01     0.2071           False
+    Python     27.5  22.2     27.6                     0.1      0.049 2.01e-01     0.2507           False
+        Go     12.4  10.4     13.9                     1.6      0.042 3.03e-01     0.3492           False
+   Node.js     16.9  14.1     14.5                    -2.4      0.024 6.80e-01     0.7289           False
+     React     36.5  39.6     37.6                     1.1      0.020 7.71e-01     0.7705           False
+
+-> 5 of 15 top skills differ significantly across levels (FDR 5%).
+   Cramer's V reads: <0.10 negligible, 0.10-0.30 small-to-moderate, >0.30 strong.
+
+================================================================
+B. SKILLS vs JOB ROLE (4 main roles; smaller roles have < 25 jobs each)
+================================================================
+
+Skills ranked by how strongly they depend on the role (Cramer's V):
+     Skill  Cramers_V  p_value q_value_BH
+     React      0.454 1.54e-78   2.31e-77
+       CSS      0.426 4.82e-69   3.62e-68
+TypeScript      0.350 1.61e-46   8.03e-46
+JavaScript      0.331 1.07e-41   4.01e-41
+      HTML      0.320 7.21e-39   2.16e-38
+   Node.js      0.247 4.63e-23   1.16e-22
+    Python      0.243 1.70e-22   3.65e-22
+   Angular      0.219 2.78e-18   5.22e-18
+      Java      0.189 1.40e-13   2.33e-13
+       AWS      0.181 1.86e-12   2.78e-12
+       Git      0.180 2.65e-12   3.61e-12
+        Go      0.111 7.63e-05   9.54e-05
+       SQL      0.097 8.68e-04   1.00e-03
+     Azure      0.061 8.86e-02   9.50e-02
+     CI/CD      0.045 3.03e-01   3.03e-01
+
+Top 5 skills - Software Engineering  (n=838): Python 31%, JavaScript 26%, React 22%, CI/CD 21%, AWS 19%
+
+Top 5 skills - Frontend / Web Development  (n=580): React 66%, JavaScript 59%, TypeScript 52%, CSS 52%, HTML 39%
+
+Top 5 skills - Full-Stack Development  (n=215): React 60%, JavaScript 52%, TypeScript 35%, AWS 35%, Python 35%
+
+Top 5 skills - Backend Development  (n=129): AWS 33%, Java 29%, Python 29%, Node.js 23%, CI/CD 22%
+
+================================================================
+C. JOB ROLE vs EXPERIENCE LEVEL (all jobs, Junior / Mid / Senior)
+================================================================
+Experience_Group            Junior (0-2 yrs)  Mid (3-4 yrs)  Senior (5+ yrs)
+Role_Group                                                                  
+Backend Development                       14             15               81
+Frontend / Web Development                53             99              234
+Full-Stack Development                    14             41               93
+Other IT roles                            13             14               54
+Software Engineering                      93            110              462
+
+Chi-square = 23.38, dof = 8, p = 0.002905, Cramer's V = 0.092
+Smallest expected count = 10.9 (test is valid when >= 5)
+
+Experience mix inside each role (% of the role's jobs):
+Experience_Group            Junior (0-2 yrs)  Mid (3-4 yrs)  Senior (5+ yrs)
+Role_Group                                                                  
+Backend Development                     12.7           13.6             73.6
+Frontend / Web Development              13.7           25.6             60.6
+Full-Stack Development                   9.5           27.7             62.8
+Other IT roles                          16.0           17.3             66.7
+Software Engineering                    14.0           16.5             69.5
+
+================================================================
+D. SKILLS ASKED TOGETHER (top 15 technical skills)
+================================================================
+Lift > 1: asked together more often than chance; lift < 1: tend to exclude each other.
+(only pairs found together in >= 80 jobs)
+
+Strongest associations:
+   Skill_A    Skill_B  Jobs_with_both  Lift  P(B|A)_%  P(A|B)_%
+       CSS       HTML             354  3.58      73.8      91.9
+       AWS      Azure             139  2.70      35.2      57.0
+     CI/CD      Azure             126  2.24      29.3      51.6
+JavaScript       HTML             306  2.08      42.9      79.5
+JavaScript        CSS             362  1.97      50.7      75.4
+     React TypeScript             417  1.88      57.2      73.4
+       Git    Angular             105  1.85      25.1      41.3
+       SQL       Java              85  1.84      28.0      29.9
+
+Strongest repulsions:
+   Skill_A Skill_B  Jobs_with_both  Lift  P(B|A)_%  P(A|B)_%
+     React    Java              85  0.77      11.7      29.9
+     React  Python             144  0.78      19.8      30.4
+     React     SQL              92  0.78      12.6      30.3
+TypeScript  Python             118  0.82      20.8      24.9
+JavaScript  Python             151  0.84      21.1      31.9
+JavaScript   CI/CD             139  0.85      19.5      32.3
+
+================================================================
+E. NUMBER OF SKILLS vs MINIMUM YEARS OF EXPERIENCE
+================================================================
+Jobs with a numeric requirement: 1071
+Spearman rho = -0.012, p = 0.701
+-> negligible relationship
+Kruskal-Wallis (skills per job across Junior/Mid/Senior): H = 1.45, p = 0.484
+
+================================================================
+F. ROBUSTNESS - same job posted for several countries counted once
+================================================================
+Jobs with skills: 1869 -> after keeping one posting per (title, company): 1753
+            All_postings_%  One_per_job_%  Rank_all  Rank_dedup
+React                 39.0           39.1         1           1
+JavaScript            38.2           39.1         2           1
+TypeScript            30.4           29.9         3           3
+CSS                   25.7           25.8         4           4
+Python                25.3           25.2         5           5
+CI/CD                 23.0           22.2         6           7
+Git                   22.4           22.5         7           6
+AWS                   21.1           21.8         8           8
+HTML                  20.6           20.1         9           9
+SQL                   16.3           16.1        10          10
+
+Spearman correlation between the two rankings (top 15): 0.996
+Top-5 skills identical in both versions: True

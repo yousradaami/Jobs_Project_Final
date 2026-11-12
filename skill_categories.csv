@@ -1,0 +1,58 @@
+﻿Skill,Frequency,Category,Share_of_jobs_with_skills_%
+React,729,Frameworks & APIs,39.0
+JavaScript,714,Languages & Web,38.2
+TypeScript,568,Languages & Web,30.4
+Software Engineering,499,Methodology & General,26.7
+CSS,480,Languages & Web,25.7
+Python,473,Languages & Web,25.3
+Agile,468,Methodology & General,25.0
+CI/CD,430,Cloud & DevOps,23.0
+Git,418,Cloud & DevOps,22.4
+AWS,395,Cloud & DevOps,21.1
+HTML,385,Languages & Web,20.6
+SQL,304,Databases,16.3
+Java,284,Languages & Web,15.2
+Node.js,259,Frameworks & APIs,13.9
+Angular,254,Frameworks & APIs,13.6
+Azure,244,Cloud & DevOps,13.1
+Go,235,Languages & Web,12.6
+Kubernetes,209,Cloud & DevOps,11.2
+Docker,203,Cloud & DevOps,10.9
+C#,188,Languages & Web,10.1
+GitHub,186,Cloud & DevOps,10.0
+Linux,166,"Systems, Network & Security",8.9
+PHP,161,Languages & Web,8.6
+C++,161,Languages & Web,8.6
+.NET,153,Frameworks & APIs,8.2
+Scrum,148,Methodology & General,7.9
+MySQL,142,Databases,7.6
+PostgreSQL,140,Databases,7.5
+GraphQL,127,Frameworks & APIs,6.8
+Networking,110,"Systems, Network & Security",5.9
+Machine Learning,98,Data & AI,5.2
+Artificial Intelligence,94,Data & AI,5.0
+Vue.js,86,Frameworks & APIs,4.6
+MongoDB,79,Databases,4.2
+Cybersecurity,74,"Systems, Network & Security",4.0
+Terraform,72,Cloud & DevOps,3.9
+Ruby,65,Languages & Web,3.5
+Rust,61,Languages & Web,3.3
+Google Cloud,60,Cloud & DevOps,3.2
+REST API,56,Frameworks & APIs,3.0
+Redis,54,Databases,2.9
+Django,52,Frameworks & APIs,2.8
+Spring Boot,50,Frameworks & APIs,2.7
+Oracle,42,Databases,2.2
+Jenkins,37,Cloud & DevOps,2.0
+Excel,37,Data & AI,2.0
+Firebase,24,Databases,1.3
+Data Analysis,21,Data & AI,1.1
+Flask,21,Frameworks & APIs,1.1
+PyTorch,15,Data & AI,0.8
+Deep Learning,10,Data & AI,0.5
+Power BI,10,Data & AI,0.5
+NumPy,9,Data & AI,0.5
+Pandas,7,Data & AI,0.4
+TensorFlow,6,Data & AI,0.3
+Tableau,6,Data & AI,0.3
+Windows Server,3,"Systems, Network & Security",0.2

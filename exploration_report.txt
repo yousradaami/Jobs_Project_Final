@@ -1,0 +1,84 @@
+============================================================
+1. DATASET OVERVIEW
+============================================================
+Jobs: 1987 | columns: 19
+Jobs with skills: 1869 | distinct skills: 57
+
+Source share (%):
+Source
+Himalayas           96.6
+We Work Remotely     1.9
+Remote OK            1.3
+Remotive             0.3
+
+============================================================
+2. DESCRIPTIVE STATISTICS - skills per job (jobs with skills only)
+============================================================
+                    Jobs  Mean  Median   Std  Min   Max
+All jobs          1869.0  5.55     5.0  3.48  1.0  26.0
+Internship          29.0  5.38     6.0  2.80  2.0  12.0
+Junior (0-2 yrs)   178.0  5.76     5.0  3.64  1.0  26.0
+Mid (3-4 yrs)      270.0  5.66     5.0  3.27  1.0  20.0
+Senior (5+ yrs)    883.0  5.58     5.0  3.67  1.0  26.0
+Not Specified      509.0  5.39     5.0  3.20  1.0  19.0
+
+Skills per job by role (roles with >= 30 jobs):
+                            count  mean  median
+Job_Role                                       
+Full-Stack Development        215  7.45     7.0
+Frontend / Web Development    580  5.81     5.0
+Backend Development           129  5.36     5.0
+Software Engineering          838  4.97     4.0
+
+============================================================
+3. LOCATION
+============================================================
+Location type:
+                           count     %
+Location_Type                         
+Single country              1677  84.4
+Worldwide (>10 countries)    118   5.9
+Several countries (2-10)     107   5.4
+Not Specified                 85   4.3
+
+Distinct countries among single-country jobs: 84
+Top 10 countries (single-country jobs only):
+Location
+United States     671
+India             159
+Canada             94
+Philippines        64
+Poland             56
+United Kingdom     52
+Germany            45
+Portugal           33
+Brazil             30
+Spain              27
+Top 3 countries share of single-country jobs: 55.1%
+
+============================================================
+4. SKILLS
+============================================================
+Mentions by category (%):
+Category
+Languages & Web                36.4
+Cloud & DevOps                 21.7
+Frameworks & APIs              17.2
+Methodology & General          10.7
+Databases                       7.6
+Systems, Network & Security     3.4
+Data & AI                       3.0
+
+Top 10 technical skills (% of jobs with skills):
+            Frequency  Share_of_jobs_with_skills_%
+Skill                                             
+React             729                         39.0
+JavaScript        714                         38.2
+TypeScript        568                         30.4
+CSS               480                         25.7
+Python            473                         25.3
+CI/CD             430                         23.0
+Git               418                         22.4
+AWS               395                         21.1
+HTML              385                         20.6
+SQL               304                         16.3

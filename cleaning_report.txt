@@ -1,0 +1,38 @@
+============================================================
+BEFORE CLEANING
+============================================================
+Rows: 2000
+Missing values per column:
+Required_Skills    119
+Distinct experience labels: 16
+Distinct location values: 181
+
+True duplicates (same URL, or same title+company+location): 0
+
+============================================================
+AFTER CLEANING
+============================================================
+Rows kept: 1987 | rows removed: 13
+Removal_Reason
+Non-IT role                                      12
+IT_Relevance = Needs review (ambiguous title)     1
+
+Experience groups:
+Experience_Group
+Senior (5+ yrs)     924
+Not Specified       567
+Mid (3-4 yrs)       279
+Junior (0-2 yrs)    187
+Internship           30
+
+Jobs without skills: 118 (5.9%) -> kept, excluded from skill statistics
+Jobs flagged Multi_Country_Posting: 196
+Distinct skills: 57 | skill records: 10382
+
+Location type:
+Location_Type
+Single country               1677
+Worldwide (>10 countries)     118
+Several countries (2-10)      107
+Not Specified                  85
+Remaining missing values: 874
