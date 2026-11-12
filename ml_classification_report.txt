@@ -1,0 +1,54 @@
+====================================================================
+TASK A. Job role   (n = 1762 jobs, 1646 distinct (title, company) groups)
+====================================================================
+Class balance: {'Software Engineering': np.int64(838), 'Frontend / Web Development': np.int64(580), 'Full-Stack Development': np.int64(215), 'Backend Development': np.int64(129)}
+Majority-class accuracy: 0.476
+
+Baseline (majority class)    accuracy 0.476 +/- 0.001 | balanced acc 0.250 | macro-F1 0.161 +/- 0.000
+Logistic Regression          accuracy 0.603 +/- 0.033 | balanced acc 0.579 | macro-F1 0.529 +/- 0.033
+Random Forest                accuracy 0.661 +/- 0.026 | balanced acc 0.568 | macro-F1 0.555 +/- 0.039
+
+Best model: Random Forest. Permutation test (40 label shuffles): macro-F1 = 0.544 vs chance 0.251 (95th pct 0.267), p = 0.024
+
+Per-class report (out-of-fold predictions):
+                            precision    recall  f1-score   support
+
+      Software Engineering      0.793     0.677     0.730       838
+Frontend / Web Development      0.680     0.793     0.732       580
+    Full-Stack Development      0.422     0.405     0.413       215
+       Backend Development      0.309     0.395     0.347       129
+
+                  accuracy                          0.661      1762
+                 macro avg      0.551     0.567     0.556      1762
+              weighted avg      0.675     0.661     0.664      1762
+
+====================================================================
+TASK B. Experience level   (n = 1331 jobs, 1261 distinct (title, company) groups)
+====================================================================
+Class balance: {'Senior (5+ yrs)': np.int64(883), 'Mid (3-4 yrs)': np.int64(270), 'Junior (0-2 yrs)': np.int64(178)}
+Majority-class accuracy: 0.663
+
+Baseline (majority class)    accuracy 0.663 +/- 0.002 | balanced acc 0.333 | macro-F1 0.266 +/- 0.000
+Logistic Regression          accuracy 0.409 +/- 0.038 | balanced acc 0.397 | macro-F1 0.356 +/- 0.036
+Random Forest                accuracy 0.564 +/- 0.020 | balanced acc 0.400 | macro-F1 0.402 +/- 0.014
+
+Best model: Random Forest. Permutation test (40 label shuffles): macro-F1 = 0.406 vs chance 0.332 (95th pct 0.361), p = 0.024
+
+Per-class report (out-of-fold predictions):
+                  precision    recall  f1-score   support
+
+Junior (0-2 yrs)      0.247     0.213     0.229       178
+   Mid (3-4 yrs)      0.267     0.256     0.261       270
+ Senior (5+ yrs)      0.701     0.729     0.715       883
+
+        accuracy                          0.564      1331
+       macro avg      0.405     0.399     0.402      1331
+    weighted avg      0.552     0.564     0.558      1331
+
+====================================================================
+TASK A - skills that push a job towards each role (logistic regression; skills in >= 40 jobs only)
+====================================================================
+Software Engineering: Software Engineering (+1.01), Terraform (+0.73), Linux (+0.64), C++ (+0.60), Networking (+0.56), Artificial Intelligence (+0.56)
+Frontend / Web Development: CSS (+1.18), React (+0.97), TypeScript (+0.89), Vue.js (+0.79), Azure (+0.75), Angular (+0.68)
+Full-Stack Development: React (+0.95), Networking (+0.66), Angular (+0.63), Docker (+0.60), Python (+0.57), Redis (+0.52)
+Backend Development: PostgreSQL (+1.11), Django (+1.00), Rust (+0.89), MongoDB (+0.84), Spring Boot (+0.83), Kubernetes (+0.79)
